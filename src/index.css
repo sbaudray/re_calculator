@@ -1,0 +1,31 @@
+.calculator {
+  font-size: 1.5rem;
+  width: 350px;
+}
+
+.display {
+  background: black;
+  color: orange;
+  height: 2rem;
+  font-size: 2rem;
+  padding: 12px;
+  text-align: right;
+}
+
+.digits {
+  display: grid;
+  font-size: inherit;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.digits button {
+  font-size: inherit;
+}
+
+.operators {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.operators button {
+  font-size: inherit;
+}
